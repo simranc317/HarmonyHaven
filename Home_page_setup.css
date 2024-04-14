@@ -1,0 +1,48 @@
+html{
+    background-image:url(waterfall.jpeg);
+    background-size: cover;
+}
+/*
+body{
+    background-color: rgb(178, 230, 199)
+}
+*/
+header .header-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.website_name{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    text-align:center;
+    margin-top: 8%;
+    font-size: 20px;
+}
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #539e8a;
+    overflow: hidden;
+    padding: 1em;
+}
+li {
+    display: inline;
+}
+
+    li a {
+        text-decoration: none;
+        color: #f6c5c0;
+        padding: 1em;
+    }
+
+        li a:hover {
+            background-color: #457567;
+        }
